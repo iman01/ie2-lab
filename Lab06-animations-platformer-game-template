@@ -118,6 +118,7 @@ int main() {
     // run the program as long as the window is open
     while (window.isOpen()) {
     hero.setTextureRect(sf::IntRect(50, 0, 50, 37));
+    hero.setScale(1.5,1.5);
 
         sf::Time elapsed = clock.restart();
 
